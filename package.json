@@ -1,32 +1,46 @@
 {
-    "name": "gitbook-plugin-github",
-    "version": "2.0.0",
-    "description": "Display a link to your GitHub repo in your gitbook",
-    "main": "index.js",
-    "authors": [
-        {
-            "name": "Michael Jackson"
-        },
-        {
-            "name": "Samy Pessé",
-            "email": "samy@gitbook.com"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/GitbookIO/plugin-github.git"
-    },
-    "license": "Apache-2.0",
-    "engines": {
-        "gitbook": ">=2.5.0"
-    },
-    "gitbook": {
-        "properties": {
-            "url": {
-                "type": "string",
-                "required": true,
-                "title": "URL to your GitHub repository"
-            }
-        }
+  "name": "gitbook-plugin-github-edit",
+  "version": "1.0.4",
+  "description": "a plugin for providing a button on the toolbar for readers to edit your github projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleen42/gitbook-edit.git"
+  },
+  "keywords": [
+    "gitbook",
+    "gitbook-plugin",
+    "github"
+  ],
+  "author": "aleen42 <aleen42@vip.qq.com> (http://aleen42.github.io/pc.html)",
+  "contributors": [
+    "aleen42 <aleen42@vip.qq.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aleen42/gitbook-edit/issues"
+  },
+  "homepage": "https://github.com/aleen42/gitbook-edit#readme",
+  "engines": {
+    "gitbook": ">=2.5.0"
+  },
+  "gitbook": {
+    "properties": {
+      "repo": {
+        "type": "string",
+        "required": true,
+        "title": "user name and the repo name"
+      },
+      "branch": {
+        "type": "string",
+        "title": "which branch do you want users to edit"
+      }
     }
+  },
+  "dependencies": {
+    "gitbook": "^3.2.2"
+  }
 }
