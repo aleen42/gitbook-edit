@@ -6,6 +6,8 @@
 
 a gitbook plugin for providing a button on the toolbar for readers to edit your github projects
 
+![gitbook-edit](./preview.png)
+
 #### Installation
 
 add the following plugins to your `book.json` and run `gitbook install`
@@ -39,6 +41,7 @@ configuration option can be set as an obj like, and of course you can use a defa
 #### Release History
 
 * ==================== **1.0.4 Initial release** ====================
+	* 1.0.5 update readme
 
 #### :fuelpump: How to contribute
 
