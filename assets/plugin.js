@@ -30,7 +30,27 @@ require([ 'gitbook' ], function (gitbook) {
 			label: 'Edit on GitHub',
 			position: 'right',
 			onClick: function() {
-				window.open('https://github.com/' + defaultOption.repo + '/edit/' + defaultOption.branch + '/' + gitbook.state.filepath);
+				
+				let editUrl = 'https://github.com/' + defaultOption.repo + '/edit/' + defaultOption.branch + '/';
+				let docsRoot = defaultOption.root;
+				if(docsRoot){
+					
+					//removes ./ at the beginning, if any
+					if(docsRoot.startsWith('./')){
+						docsRoot = docsRoot.substr(2);
+					}
+					
+					//removes trailing /, if any
+					if(docsRoot.endsWith('/')){
+						docsRoot = docsRoot.substr(0, docsRoot.length - 1);
+					}
+					
+					editUrl += docsRoot;
+				}
+				
+				editUrl += ('/' + gitbook.state.filepath);
+				
+				window.open(editUrl);
 			}
 		});
 	};
