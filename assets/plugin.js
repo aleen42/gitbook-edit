@@ -25,12 +25,15 @@ require([ 'gitbook' ], function (gitbook) {
 			}
 		}
 
+		const configRoot = config['root'];
+		const editUrl = 'https://github.com/' + defaultOption.repo + '/edit/' + defaultOption.branch + (configRoot ? '/' + configRoot : '') + '/' + gitbook.state.filepath;
+
 		gitbook.toolbar.createButton({
 			icon: 'fa fa-pencil-square-o ',
 			label: 'Edit on GitHub',
 			position: 'right',
 			onClick: function() {
-				window.open('https://github.com/' + defaultOption.repo + '/edit/' + defaultOption.branch + '/' + gitbook.state.filepath);
+				window.open(editUrl);
 			}
 		});
 	};

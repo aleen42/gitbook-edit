@@ -43,6 +43,7 @@ configuration option can be set as an obj like, and of course you can use a defa
 * ==================== **1.0.4 Initial release** ====================
 	* 1.0.5 update readme
 	* 1.0.6 update readme
+	* 1.0.8 consider the case of using a `root` property
 
 #### :fuelpump: How to contribute
 
