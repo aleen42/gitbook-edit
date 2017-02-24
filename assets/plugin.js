@@ -32,7 +32,7 @@ require([ 'gitbook' ], function (gitbook) {
 			onClick: function() {
 				
 				let editUrl = 'https://github.com/' + defaultOption.repo + '/edit/' + defaultOption.branch + '/';
-				let docsRoot = defaultOption.root;
+				let docsRoot = config.root;
 				if(docsRoot){
 					
 					//removes ./ at the beginning, if any
