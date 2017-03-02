@@ -5,11 +5,11 @@ require([ 'gitbook' ], function (gitbook) {
 		 * @type {Object}
 		 */
 		const defaultOption = {
-	        'repo': 'aleen42/PersonalWiki',
-	        'branch': 'master'
-	    };
+			'repo': 'aleen42/PersonalWiki',
+			'branch': 'master'
+		};
 
-	    /** if users have its option, and then combine it with default options */
+		/** if users have its option, and then combine it with default options */
 		if (config['github-edit']) {
 		// @deprecated
 		// if (this.options.pluginsConfig['page-treeview']) {
