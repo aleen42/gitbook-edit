@@ -1,10 +1,8 @@
-## github-edit
+<h2 align="center">gitbook-edit</h2>
 
-![gitbook](https://camo.githubusercontent.com/cf48327b2fdeec4a1f072204f8868f25865b39ac/68747470733a2f2f7261776769742e636f6d2f616c65656e34322f6261646765732f6d61737465722f7372632f676974626f6f6b2e737667) [![Pay](https://img.shields.io/badge/%24-free-%23a10000.svg)](#) [![GitHub issues](https://img.shields.io/github/issues/aleen42/gitbook-edit.svg)](https://github.com/aleen42/gitbook-edit/issues) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/aleen42/gitbook-edit/master/LICENSE) [![Gitter](https://badges.gitter.im/aleen42/gitbook-edit.svg)](https://gitter.im/aleen42/gitbook-edit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![gitbook](https://aleen42.github.io/badges/src/gitbook_2.svg)](#) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/aleen42/gitbook-edit/master/LICENSE) [![Gitter](https://badges.gitter.im/aleen42/gitbook-edit.svg)](https://gitter.im/aleen42/gitbook-edit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-[![npm](https://img.shields.io/npm/v/gitbook-plugin-github-edit.svg)](https://www.npmjs.com/package/gitbook-plugin-github-edit) [![npm](https://img.shields.io/npm/dt/gitbook-plugin-github-edit.svg)](https://www.npmjs.com/package/gitbook-plugin-github-edit)
-
-a gitbook plugin for providing a button on the toolbar for readers to edit your github projects
+**gitbook-edit** is a Gitbook plugin for providing a button on the toolbar for readers to edit their github projects.
 
 ![gitbook-edit](https://github.com/aleen42/gitbook-edit/raw/master/preview.png)
 
@@ -47,9 +45,9 @@ configuration option can be set as an obj like, and of course you can use a defa
 
 #### :fuelpump: How to contribute
 
-Have an idea? Found a bug? See [how to contribute](https://aleen42.gitbooks.io/personalwiki/content/contribution.html).
+Have an idea? Found a bug? See [how to contribute](https://aleen42.github.io/PersonalWiki/contribution.html).
 
 #### :scroll: License
 
-[MIT](https://aleen42.gitbooks.io/personalwiki/content/MIT.html) © aleen42
+[MIT](https://aleen42.github.io/PersonalWiki/MIT.html) © aleen42
 
