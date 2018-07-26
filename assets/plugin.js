@@ -5,6 +5,7 @@ require([ 'gitbook' ], function (gitbook) {
 		 * @type {Object}
 		 */
 		const defaultOption = {
+			'url': 'https://github.com',
 			'repo': 'aleen42/PersonalWiki',
 			'branch': 'master'
 		};
@@ -32,7 +33,8 @@ require([ 'gitbook' ], function (gitbook) {
 			label: 'Edit on GitHub',
 			position: 'right',
 			onClick: function () {
-				window.open('https://github.com/'
+				window.open(defaultOption.url
+					+ '/'
 					+ defaultOption.repo
 					+ '/edit/'
 					+ defaultOption.branch
