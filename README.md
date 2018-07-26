@@ -24,15 +24,15 @@ configuration option can be set as an obj like, and of course you can use a defa
 
 ```json
 {
-	"plugins": [
-		"github-edit"
-	],
-	"pluginsConfig": {
-		"github-edit": {
-			"repo": "aleen42/PersonalWiki",
+    "plugins": [
+        "github-edit"
+    ],
+    "pluginsConfig": {
+        "github-edit": {
+            "repo": "aleen42/PersonalWiki",
             "branch": "master"
-		}
-	}
+        }
+    }
 }
 ```
 
@@ -43,6 +43,7 @@ configuration option can be set as an obj like, and of course you can use a defa
 	* 1.0.6 update readme
 	* 1.0.8 consider the case of using a `root` property
 	* 1.0.9 fix the problem of getting wrong file path
+	* 1.1.0 extend url option for configuring
 
 #### :fuelpump: How to contribute
 
