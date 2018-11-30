@@ -39,8 +39,5 @@
         "title": "which branch do you want users to edit"
       }
     }
-  },
-  "dependencies": {
-    "gitbook": "3.2.2"
   }
 }
